@@ -20,9 +20,9 @@ class Navigation extends Component {
                     </Container>
                 </Navbar>
                 <Routes>
-                    <Route index path={'/'} component={<Home/>}/>
-                    <Route index path={'about'} component={<About/>}/>
-                    <Route index path={'contact'} component={<Contact/>}/>
+                    <Route index path={'/'} element={<Home/>}/>
+                    <Route path={'about'} element={<About/>}/>
+                    <Route path={'contact'} element={<Contact/>}/>
                 </Routes>
             </BrowserRouter>
         );
