@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import Contact from "../pages/Contact";
 import About from "../pages/About";
 import Error from "../pages/Error";
+import Particles from "../pages/Particles";
 
 class Navigation extends Component {
     render() {
@@ -16,6 +17,7 @@ class Navigation extends Component {
                         <Nav className="me-auto">
                             <Nav.Link as={Link} to="/">Home</Nav.Link>
                             <Nav.Link as={Link} to="about">About</Nav.Link>
+                            <Nav.Link as={Link} to="particle">Particles</Nav.Link>
                             <Nav.Link as={Link} to="contact">Contact</Nav.Link>
                         </Nav>
                     </Container>
@@ -23,6 +25,7 @@ class Navigation extends Component {
                 <Routes>
                     <Route index path={'/'} element={<Home/>}/>
                     <Route path={'about'} element={<About/>}/>
+                    <Route path={'particle'} element={<Particles/>}/>
                     <Route path={'contact'} element={<Contact/>}/>
                     <Route path={'*'} element={<Error/>}/>
                 </Routes>

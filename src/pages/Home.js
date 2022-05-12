@@ -12,6 +12,7 @@ class Home extends Component {
                         Md. Sakir Ahmed | Web application developer | Skills: PHP, Laravel, Livewire, React JS, Vue JS, jQuery, JS, CSS HTML | Contact +880 1304-734623 m.sakirahmed@gmail.com
                     </marquee>
                 </Card>
+
             </div>
         );
     }
